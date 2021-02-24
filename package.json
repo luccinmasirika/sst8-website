@@ -1,0 +1,43 @@
+{
+  "name": "sst8",
+  "version": "1.0.0",
+  "description": "Semaine de la science et des technologies 8e édution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luccin243/sst8.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ejs",
+    "javascript"
+  ],
+  "author": "Uptodate Developers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luccin243/sst8/issues"
+  },
+  "homepage": "https://github.com/luccin243/sst8#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^4.4.1",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
