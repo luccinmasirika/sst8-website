@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <%- include('../partials/head')%>
+    <!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta
+      property="og:url"
+      content="<%= api %>"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Your Website Title" />
+    <meta property="og:description" content="Your description" />
+    <meta
+      property="og:image"
+      content="/assets/images/banner/banner_1.png"
+    />
+  </head>
+  <body>
+    <%- include('../partials/preload') %>
+    <%- include('../partials/blog/cover') %>
+    <%- include('../partials/blog/blog') %>
+    <%- include('../partials/footer')%>
+    <%- include('../partials/script')%>
+  </body>
+</html>

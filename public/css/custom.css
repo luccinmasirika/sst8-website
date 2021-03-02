@@ -1,0 +1,431 @@
+header .edu_nav nav .navbar-brand img {
+  height: 50px;
+}
+.edu_nav2 {
+  background: #fff !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  position: fixed !important;
+  top: 0;
+  transition: 0.7s;
+  z-index: 999999 !important;
+}
+
+.header_tow .edu_nav2 nav .navbar-nav li a {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 20px 0 !important;
+  color: #333146 !important;
+  margin: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Rubik', sans-serif;
+}
+
+.header_tow .edu_nav2 nav .search_area .navbar-nav li i:before {
+  color: #333146 !important;
+}
+
+.topics-img-icon {
+  width: 80px;
+  height: auto;
+  padding-bottom: 15px;
+}
+
+.unlimited_possibilities .single_item {
+  border-radius: 15px !important;
+  margin: 20px 0;
+}
+
+.unlimited_possibilities .single_item:hover {
+  box-shadow: 0 0 90px 0 rgba(0, 0, 0, 0.2);
+}
+
+.unlimited_possibilities .single_item:before {
+  height: 2px;
+  width: 80%;
+  left: 10%;
+}
+
+.courses_features {
+  padding: 50px 0;
+}
+
+.view_all_btn {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.view_all_btn a {
+  background: #132451;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 40px;
+  display: inline-block;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.view_all_btn a:hover {
+  transform: scale(1.03);
+  background: #0c1633;
+}
+.section_member_ship {
+  position: relative;
+  background: rgb(19 36 81);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member-ship-row {
+  padding: 10%;
+}
+.section_member_ship::before {
+  content: '';
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(135deg, #7351ff 0%, #60bbff 100%);
+}
+
+.member_ship {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.member_ship h2 {
+  margin: 5% 0;
+}
+.member_ship p {
+  margin: 10% 0;
+}
+.member_ship a,
+.member_ship p,
+.member_ship h3,
+.member_ship h2 {
+  color: #fff;
+}
+
+.member_ship a {
+  padding: 14px 28px 14px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  background-color: #b52e2c;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.member_ship a:hover {
+  background-color: #b52e2c;
+}
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.card-item {
+  height: 130px;
+  background: rgb(236, 236, 236);
+  border-radius: 5px;
+  margin: 20px 5px;
+  display: flex;
+}
+.member_ship_widget_container {
+  padding: 31px 30px 31px 30px;
+  background-color: #ffffff;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.member_ship_icon_box_wrapper {
+  display: flex;
+}
+
+.member_ship_icon_box_icon {
+  margin-right: 20px;
+  align-items: center;
+  display: flex;
+  font-size: 3rem;
+}
+
+.member_ship_icon_box_content {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-item-icon .fa {
+  font-size: 2rem;
+}
+.card-item-icon {
+  height: 100%;
+  display: flex;
+  padding: 0 10px;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+  align-items: center;
+}
+
+.card-img-icon {
+  width: 60px;
+  height: auto;
+}
+
+.card-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.section-banner-mobile {
+  width: 100vw;
+  padding: 40px 0;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.container-banner-mobile {
+  padding: 10%;
+}
+
+.banner-title h3 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 20px 0;
+}
+
+.banner-title h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  padding: 20px 0;
+}
+
+.banner-btn {
+  margin: 30px 0;
+}
+
+.banner-btn a {
+  z-index: 14;
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-family: Rubik;
+  text-transform: uppercase;
+  background-color: #b52e2c;
+  border-radius: 3px;
+  transition: none 0s ease 0s;
+  text-align: left;
+  line-height: 34px;
+  font-size: 18px;
+  padding: 15px 40px;
+  margin: 15px 0;
+}
+
+.banner-btn a:last-child {
+  background-color: rgb(38 101 206);
+}
+
+.banner-mobile {
+  display: none;
+}
+
+.rev_slider_wrapper {
+  height: 95vh !important;
+}
+
+.courses_features .feature_single:before {
+  background: linear-gradient(0deg, #132451, transparent);
+}
+
+.courses_features .single_features_wrapper .feature_single {
+  height: 270px;
+}
+.single-courses {
+  background: rgba(255, 255, 255, 0.8);
+}
+.single-courses .courses_banner_wrapper .courses_banner {
+  height: 230px;
+}
+
+.courses_features .single_features_wrapper .feature_single img,
+.single-courses .courses_banner_wrapper .courses_banner .img-fluid {
+  height: 100% !important;
+  width: auto !important;
+  max-width: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.popular_courses:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(229, 231, 236, 0.6), transparent);
+}
+
+.popular_courses {
+  background: url('/assets/images/blur.png');
+  position: relative;
+}
+
+.about_us_thinking .banner_learn img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  min-height: auto;
+}
+
+.latest_news_2 h2::after,
+.our_instructors h2::after,
+.popular_courses h2::after,
+.unlimited_possibilities h2::after,
+.courses_features h2::after {
+  content: '';
+  width: 30px;
+  height: 50px;
+  right: 50px;
+  background: linear-gradient(-90deg, #b52e2c, transparent);
+  position: absolute;
+  top: 15px;
+}
+
+.latest_news_2 h2::before,
+.our_instructors h2::before,
+.popular_courses h2::before,
+.unlimited_possibilities h2::before,
+.courses_features h2::before {
+  content: '';
+  width: 30px;
+  height: 50px;
+  left: 50px;
+  background: linear-gradient(90deg, #b52e2c, transparent);
+  position: absolute;
+  bottom: 15px;
+}
+
+.latest_news_2 h2,
+.our_instructors h2,
+.popular_courses h2,
+.unlimited_possibilities h2,
+.courses_features h2 {
+  position: relative;
+}
+
+.popular_courses .single-courses .courses_banner_wrapper .purchase_price a {
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 0;
+  background: none;
+}
+
+.popular_courses .single-courses .courses_banner_wrapper .purchase_price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 15px 0 15px;
+  z-index: 100;
+  background: linear-gradient(0, #132451, transparent);
+}
+
+.popular_courses .single-courses .courses_banner_wrapper .purchase_price span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.popular_courses .single-courses .courses_banner_wrapper .purchase_price i {
+  margin: 5px;
+}
+
+.popular_courses .single-courses {
+  height: 450px;
+}
+.popular_courses .single-courses .courses_title {
+  height: 100px;
+}
+
+.category_name {
+  color: #132451;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+
+.latest_news_2 {
+  padding-top: 0 !important;
+}
+
+.our_sponsor {
+  padding: 0px 0 60px;
+}
+
+.about_content h1,
+.about_content h2,
+.about_content h3 {
+  margin: 25px 0;
+}
+
+.about_content p {
+  text-align: justify;
+}
+
+.about_us {
+  position: relative;
+  padding-bottom: 150px;
+  padding-top: 0;
+}
+
+.our_instructors .team-single-item figure figcaption .member-name h4 {
+  font-size: 18px;
+}
+
+.our_instructors .team-single-item figure figcaption .member-name span {
+  font-size: 16px;
+}
+
+.our_instructors .team-single-item figure .member-img .teachars_pro img {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.our_instructors .team-single-item figure .member-img .img-fluid {
+  max-width: none;
+  width: auto !important;
+  height: 300px;
+}
+
+@media (max-width: 1025px) {
+  .section_member_ship::before {
+    width: 100%;
+  }
+  .banner-mobile {
+    display: flex;
+  }
+  .banner-desk {
+    display: none;
+  }
+  .about_us_thinking .banner_learn {
+    padding: 0;
+  }
+}
