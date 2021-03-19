@@ -1,20 +1,15 @@
 <section class="popular_courses">
   <div class="container">
     <div class="row">
+      <% if (!data) { %>
       <div class="col-12 col-sm-12 col-md-12 col-lg-12">
         <div class="sub_title">
-          <h2>Our Popular Courses</h2>
-          <p>
-            Lorem ipsum dolor sit amet mollis felis dapibus arcu donec viverra.
-            Pede phasellus eget. Etiam maecenas vel vici quis dictum rutrum nec
-            nisi et.
-          </p>
+          <h2>Pas de cours trouvé</h2>
         </div>
         <!-- ends: .section-header -->
       </div>
-
-      <% Array(4).fill(0).forEach(element => { %>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+      <% } else { %> <% Array(8).fill(0).forEach(element => { %>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <div class="single-courses">
             <div class="courses_banner_wrapper">
               <div class="courses_banner">
@@ -56,14 +51,9 @@
           <!-- Ends: .single courses -->
         </div>
         <!-- Ends: . -->
-        <% }) %>
-
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="view_all_btn">
-          <a href="/cours">EN SAVOIR PLUS</a>
-        </div>
-        <!-- ends: .section-header -->
-      </div>
+      <% }) %>
+      <!-- Ends: . -->
+      <% } %>
     </div>
   </div>
 </section>

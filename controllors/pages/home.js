@@ -1,5 +1,6 @@
 const axios = require('axios');
 
-exports.homeContent = (req, res) => {
-  res.render('frontoffice/pages/index');
+exports.home = (req, res) => {
+  const name = ''
+  res.render('frontoffice/pages/index', {name});
 };

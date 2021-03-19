@@ -4,4 +4,76 @@
 <script src="/assets/admin/vendor/OwlCarousel/owl.carousel.js"></script>
 <script src="/assets/admin/vendor/semantic/semantic.min.js"></script>
 <script src="/assets/admin/js/custom1.js"></script>
+<script src="/assets/admin/js/custom.js"></script>
 <script src="/assets/admin/js/night-mode.js"></script>
+
+<script src="/assets/admin/js/jquery-steps.min.js"></script>
+
+
+<script src="https://cdn.tiny.cloud/1/c6mzf2gd7d5ci4djoofybn6juqfnw18vm9d0ep1gk9pozbke/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+
+<script>
+
+tinymce.init({
+  selector: 'textarea#editor1',
+  plugins: 'print preview paste importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinymcespellchecker',
+  imagetools_cors_hosts: ['picsum.photos'],
+  menubar: 'file edit view insert format tools table help',
+  toolbar: 'undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview save print | insertfile image media template link anchor codesample | ltr rtl a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table' ,
+  toolbar_sticky: false,
+  autosave_ask_before_unload: true,
+  autosave_interval: '30s',
+  autosave_prefix: '{path}{query}-{id}-',
+  autosave_restore_when_empty: false,
+  autosave_retention: '2m',
+  image_advtab: true,
+  template_cdate_format: '[Date Created (CDATE): %m/%d/%Y : %H:%M:%S]',
+  template_mdate_format: '[Date Modified (MDATE): %m/%d/%Y : %H:%M:%S]',
+  height: 300,
+  image_caption: false,
+  quickbars_selection_toolbar: 'bold italic | quicklink h2 h3 blockquote quickimage quicktable',
+  noneditable_noneditable_class: 'mceNonEditable',
+  toolbar_mode: 'sliding',
+  contextmenu: 'link image imagetools table',
+  skin: 'oxide',
+  content_css: 'default',
+  content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+ });
+
+ tinymce.init({
+  selector: 'textarea#editor2',
+  plugins: 'print preview paste importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinymcespellchecker',
+  imagetools_cors_hosts: ['picsum.photos'],
+  menubar: 'file edit view insert format tools table help',
+  toolbar: 'undo redo | bold italic underline strikethrough | fontselect fontsizeselect formatselect | alignleft aligncenter alignright alignjustify | outdent indent |  numlist bullist | forecolor backcolor removeformat | pagebreak | charmap emoticons | fullscreen  preview save print | insertfile image media template link anchor codesample | ltr rtl a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table' ,
+  toolbar_sticky: false,
+  autosave_ask_before_unload: true,
+  autosave_interval: '30s',
+  autosave_prefix: '{path}{query}-{id}-',
+  autosave_restore_when_empty: false,
+  autosave_retention: '2m',
+  image_advtab: true,
+  template_cdate_format: '[Date Created (CDATE): %m/%d/%Y : %H:%M:%S]',
+  template_mdate_format: '[Date Modified (MDATE): %m/%d/%Y : %H:%M:%S]',
+  height: 500,
+  image_caption: false,
+  quickbars_selection_toolbar: 'bold italic | quicklink h2 h3 blockquote quickimage quicktable',
+  noneditable_noneditable_class: 'mceNonEditable',
+  toolbar_mode: 'sliding',
+  contextmenu: 'link image imagetools table',
+  skin: 'oxide',
+  content_css: 'default',
+  content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+ });
+
+
+</script>
+
+
+<script>
+  $('#add-course-tab').steps({
+    onFinish: function () {
+      alert('Wizard Completed');
+    },
+  });
+</script>

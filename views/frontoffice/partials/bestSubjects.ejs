@@ -14,68 +14,21 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
-          <div class="feature_single feature_single">
-            <img src="/assets/images/features/courses_provide_1.jpg" alt="" />
-            <div class="feature_content">
-              <a href="#" title=""><h3>Design</h3></a>
-              <p>Over 700 Courses</p>
-            </div>
-        </a>
-      </div>
-    </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
-        <div class="feature_single feature_single">
-          <img src="/assets/images/features/courses_provide_2.jpg" alt="" />
-          <div class="feature_content">
-            <a href="#" title=""><h3>Web Development</h3></a>
-            <p>Over 500 Courses</p>
-          </div>
+      <% Array(6).fill(0).forEach(element => { %>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 single_features_wrapper">
+            <div class="feature_single feature_single">
+              <img src="/assets/images/features/courses_provide_1.jpg" alt="" />
+              <div class="feature_content">
+                <a href="/cours/single" title=""><h3>Design</h3></a>
+                <p>Over 700 Courses</p>
+              </div>
+          </a>
         </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
-        <div class="feature_single feature_single">
-          <img src="/assets/images/features/courses_provide_3.jpg" alt="" />
-          <div class="feature_content">
-            <a href="#" title=""><h3>Marketing</h3></a>
-            <p>Over 450 Courses</p>
-          </div>
         </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
-        <div class="feature_single feature_single">
-          <img src="/assets/images/features/courses_provide_4.jpg" alt="" />
-          <div class="feature_content">
-            <a href="#" title=""><h3>Photography</h3></a>
-            <p>Over 500 Courses</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
-        <div class="feature_single feature_single">
-          <img src="/assets/images/banner/banner_2.jpg" alt="" />
-          <div class="feature_content">
-            <a href="#" title=""><h3>Science</h3></a>
-            <p>Over 1000 Courses</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
-        <div class="feature_single feature_single">
-          <img src="/assets/images/features/courses_provide_6.jpg" alt="" />
-          <div class="feature_content">
-            <a href="#" title=""><h3>Finance</h3></a>
-            <p>Over 350 Courses</p>
-          </div>
-        </div>
-      </div>
+      <% }) %>
       <div class="col-12 col-sm-12 col-md-12 col-lg-12">
         <div class="view_all_btn">
-          <a href="categories">EN SAVOIR PLUS</a>
+          <a href="/categories/cours">EN SAVOIR PLUS</a>
         </div>
         <!-- ends: .section-header -->
       </div>

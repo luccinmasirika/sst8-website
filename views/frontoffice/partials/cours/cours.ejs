@@ -1,247 +1,94 @@
 <section class="popular_courses">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="sub_title">
-          <h2>Our Courses</h2>
-          <p>
-            Lorem ipsum dolor sit amet mollis felis dapibus arcu donec viverra.
-            Pede phasellus eget. Etiam maecenas vel vici quis dictum rutrum nec
-            nisi et.
-          </p>
-        </div>
-        <!-- ends: .section-header -->
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="single-courses">
-          <div class="courses_banner_wrapper">
-            <div class="courses_banner">
-              <a href="#"
-                ><img
-                  src="/assets/images/banner/banner_2.jpg"
-                  alt=""
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class="purchase_price">
-              <a href="#" class="read_more-btn"
-                ><i class="fas fa-signal"></i>Beginner</a
-              >
-              <span><i class="fa fa-clock"></i> 5min</span>
-            </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+          <div class="filter-title">
+            <i class="fa fa-filter"></i> <span>PAR NIVEAU</span>
           </div>
-          <div class="courses_info_wrapper">
-            <div class="courses_title">
-              <h3>
-                <a href="#">Make Better Decisions make Better Decisions</a>
-              </h3>
-              <div class="teachers_name">
-                Teacher - <a href="#" title="">Jhonthan Smith</a>
+          <div class="filter-item">
+            <ul>
+              <li>
+                <a href="/niveau/cours/single"> <i class="fa fa-angle-double-right"></i> Débutant</a></li>
+              <li>
+                <a href="/niveau/cours/single"> <i class="fa fa-angle-double-right"></i> Intermediaire</a></li>
+              <li>
+                <a href="/niveau/cours/single"> <i class="fa fa-angle-double-right"></i> Avancé</a></li>
+            </ul>
+          </div>
+          <div class="filter-title">
+            <i class="fa fa-filter"></i> <span>PAR CATEGORIE</span>
+          </div>
+          <div class="filter-item">
+            <ul>
+              <li>
+                <a href="/categories/cours/single"> <i class="fa fa-angle-double-right"></i> Histoire</a></li>
+              <li>
+                <a href="/categories/cours/single"> <i class="fa fa-angle-double-right"></i> Maths</a></li>
+              <li>
+                <a href="/categories/cours/single"> <i class="fa fa-angle-double-right"></i> Physique</a></li>
+            </ul>
+          </div>
+
+        <!-- ends: .section-filter -->
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+        <div class="row">
+          <% Array(8).fill(0).forEach(element => { %>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div class="single-courses">
+              <div class="courses_banner_wrapper">
+                <div class="courses_banner">
+                  <a href="/cours/single"
+                    ><img
+                      src="/assets/images/courses/courses_1.jpg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                </div>
+                <div class="purchase_price">
+                  <span class="read_more-btn"
+                    ><i class="fas fa-signal"></i>Beginner</span
+                  >
+                  <span><i class="fa fa-clock"></i> 5min</span>
+                </div>
+              </div>
+              <div class="courses_info_wrapper">
+                <div class="courses_title">
+                  <h3>
+                    <a href="/cours/single">Make Better Decisions...</a>
+                  </h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur...</p>
+                </div>
+                <div class="teachers_name">
+                  Prof -
+                  <a href="javascript:void();" title="">Jhonthan Smith</a>
+                </div>
+                <div class="courses_info">
+                  <ul class="list-unstyled">
+                    <li>
+                      <i class="fas fa-cubes"></i
+                      ><a
+                        class="category_name"
+                        href="categories/cours/single"
+                        title=""
+                        >Histoire</a
+                      >
+                    </li>
+                  </ul>
+                  <a href="/cours/single" class="cart_btn"
+                    ><i class="fa fa-arrow-right"></i
+                  ></a>
+                </div>
               </div>
             </div>
-            <div class="courses_info">
-              <ul class="list-unstyled">
-                <li>
-                  <i class="fas fa-cubes"></i
-                  ><a class="category_name" href="#" title="">Histoire</a>
-                </li>
-              </ul>
-              <a href="#" class="cart_btn">Commencer</a>
-            </div>
+            <!-- Ends: .single courses -->
           </div>
+          <!-- Ends: . -->
+          <% }) %>
         </div>
-        <!-- Ends: .single courses -->
+        <!-- ends: .section-card -->
       </div>
-      <!-- Ends: . -->
 
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="single-courses">
-          <div class="courses_banner_wrapper">
-            <div class="courses_banner">
-              <a href="#"
-                ><img
-                  src="/assets/images/courses/courses_2.jpg"
-                  alt=""
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class="purchase_price">
-              <a href="#" class="read_more-btn"
-                ><i class="fas fa-signal"></i>Beginner</a
-              >
-              <span><i class="fa fa-clock"></i> 5min</span>
-            </div>
-          </div>
-          <div class="courses_info_wrapper">
-            <div class="courses_title">
-              <h3>
-                <a href="#">Better Decisions make Better Decisions</a>
-              </h3>
-              <div class="teachers_name">
-                Teacher - <a href="#" title="">Jhonthan Smith</a>
-              </div>
-            </div>
-            <div class="courses_info">
-              <ul class="list-unstyled">
-                <li>
-                  <i class="fas fa-cubes"></i
-                  ><a class="category_name" href="#" title="">Histoire</a>
-                </li>
-              </ul>
-              <a href="#" class="cart_btn">Commencer</a>
-            </div>
-          </div>
-        </div>
-        <!-- Ends: .single courses -->
-      </div>
-      <!-- Ends: . -->
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="single-courses">
-          <div class="courses_banner_wrapper">
-            <div class="courses_banner">
-              <a href="#"
-                ><img
-                  src="/assets/images/courses/courses_3.jpg"
-                  alt=""
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class="purchase_price">
-              <a href="#" class="read_more-btn"
-                ><i class="fas fa-signal"></i>Beginner</a
-              >
-              <span><i class="fa fa-clock"></i> 5min</span>
-            </div>
-          </div>
-          <div class="courses_info_wrapper">
-            <div class="courses_title">
-              <h3>
-                <a href="#">Brand Management make Better Decisions</a>
-              </h3>
-              <div class="teachers_name">
-                Teacher - <a href="#" title="">Jhonthan Smith</a>
-              </div>
-            </div>
-            <div class="courses_info">
-              <ul class="list-unstyled">
-                <li>
-                  <i class="fas fa-cubes"></i
-                  ><a class="category_name" href="#" title="">Histoire</a>
-                </li>
-              </ul>
-              <a href="#" class="cart_btn">Commencer</a>
-            </div>
-          </div>
-        </div>
-        <!-- Ends: .single courses -->
-      </div>
-      <!-- Ends: . -->
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="single-courses">
-          <div class="courses_banner_wrapper">
-            <div class="courses_banner">
-              <a href="#"
-                ><img
-                  src="/assets/images/courses/courses_4.jpg"
-                  alt=""
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class="purchase_price">
-              <a href="#" class="read_more-btn">250$</a>
-            </div>
-          </div>
-          <div class="courses_info_wrapper">
-            <div class="courses_title">
-              <h3><a href="#">Brand Management</a></h3>
-              <div class="teachers_name">
-                Teacher - <a href="#" title="">John Porter</a>
-              </div>
-            </div>
-            <div class="courses_info">
-              <ul class="list-unstyled">
-                <li><i class="fas fa-calendar-alt"></i> 130 Days</li>
-                <li><i class="fa fa-user"></i>45 Students</li>
-              </ul>
-              <a href="#" class="cart_btn">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <!-- Ends: .single courses -->
-      </div>
-      <!-- Ends: . -->
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="single-courses">
-          <div class="courses_banner_wrapper">
-            <div class="courses_banner">
-              <a href="#"
-                ><img
-                  src="/assets/images/courses/courses_5.jpg"
-                  alt=""
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class="purchase_price">
-              <a href="#" class="read_more-btn">180$</a>
-            </div>
-          </div>
-          <div class="courses_info_wrapper">
-            <div class="courses_title">
-              <h3><a href="#">Moralities Of Everyday</a></h3>
-              <div class="teachers_name">
-                Teacher - <a href="#" title="">Mittie Hill</a>
-              </div>
-            </div>
-            <div class="courses_info">
-              <ul class="list-unstyled">
-                <li><i class="fas fa-calendar-alt"></i> 190 Days</li>
-                <li><i class="fa fa-user"></i>40 Students</li>
-              </ul>
-              <a href="#" class="cart_btn">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <!-- Ends: .single courses -->
-      </div>
-      <!-- Ends: . -->
-
-      <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-        <div class="single-courses">
-          <div class="courses_banner_wrapper">
-            <div class="courses_banner">
-              <a href="#"
-                ><img
-                  src="/assets/images/courses/courses_6.jpg"
-                  alt=""
-                  class="img-fluid"
-              /></a>
-            </div>
-            <div class="purchase_price">
-              <a href="#" class="read_more-btn">130$</a>
-            </div>
-          </div>
-          <div class="courses_info_wrapper">
-            <div class="courses_title">
-              <h3><a href="#">Life Coach Training</a></h3>
-              <div class="teachers_name">
-                Teacher - <a href="#" title="">Marian Dupre</a>
-              </div>
-            </div>
-            <div class="courses_info">
-              <ul class="list-unstyled">
-                <li><i class="fas fa-calendar-alt"></i> 150 Days</li>
-                <li><i class="fa fa-user"></i>30 Students</li>
-              </ul>
-              <a href="#" class="cart_btn">Add to Cart</a>
-            </div>
-          </div>
-        </div>
-        <!-- Ends: .single courses -->
-      </div>
       <!-- Ends: . -->
       <%- include('./paginate')%>
     </div>

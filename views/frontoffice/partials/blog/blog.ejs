@@ -1,14 +1,15 @@
 <section class="blog_wrapper">
   <div class="container">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-8">
-          <%- include (path) %>
-        </div> <!-- End Blog Right Side-->
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 blog_wrapper_right ">
-          <%- include ('./blogAside') %>
-        </div><!-- ./ End  Blog Right Wrapper-->
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+        <%- include ('./'+path) %>
       </div>
+      <!-- End Blog Right Side-->
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 blog_wrapper_right">
+        <%- include ('./blogAside') %>
+      </div>
+      <!-- ./ End  Blog Right Wrapper-->
+    </div>
   </div>
-</section><!-- ./ End  Blog Wrapper-->
-
-
+</section>
+<!-- ./ End  Blog Wrapper-->

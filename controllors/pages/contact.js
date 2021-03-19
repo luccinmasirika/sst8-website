@@ -1,5 +1,7 @@
 const axios = require('axios');
 
-exports.contactContent = (req, res) => {
-  res.render('frontoffice/pages/contact');
+exports.contact = (req, res) => {
+  const name = 'contact'
+
+  res.render('frontoffice/pages/contact', {name});
 };
